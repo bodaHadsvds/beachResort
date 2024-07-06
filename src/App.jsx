@@ -16,7 +16,7 @@ function App() {
 
  useEffect(()=>{
   setAuthanticatied(localAuth)
- })
+ },[])
   return (
     <Routes>
       <Route path="/login" element={<Login setAuthanticatied={setAuthanticatied} authenticated={authenticated}/>}> </Route> 

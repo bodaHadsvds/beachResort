@@ -3,8 +3,7 @@ import logo from "../../images/logo.svg"
 import {FaAlignRight} from "react-icons/fa"
 import {BsFillSunFill ,BsFillMoonFill} from "react-icons/bs"
  import  { Component } from 'react'
-import { Link, NavLink, useNavigate } from 'react-router-dom'
-import { IoIosLogOut } from "react-icons/io";
+import { Link, NavLink } from 'react-router-dom'
 import { RoomContext } from '../../context'
 import { toast } from 'react-toastify'
 
