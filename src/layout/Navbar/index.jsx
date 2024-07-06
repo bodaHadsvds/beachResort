@@ -6,6 +6,7 @@ import {BsFillSunFill ,BsFillMoonFill} from "react-icons/bs"
 import { Link, NavLink, useNavigate } from 'react-router-dom'
 import { IoIosLogOut } from "react-icons/io";
 import { RoomContext } from '../../context'
+import { toast } from 'react-toastify'
 
  
  export default class Navbar extends Component {
@@ -22,6 +23,7 @@ import { RoomContext } from '../../context'
       this.props.setAuthanticatied(false)
       localStorage.removeItem("authantacited")
       this.props.navigate("/login")
+      toast.success("logout successfully")
     }
    
    render() {
