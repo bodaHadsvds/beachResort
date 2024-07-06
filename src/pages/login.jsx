@@ -30,6 +30,9 @@ if(email ==="user1@hotmail.com" && password==='123456789'){
     if(isAuthenticated){
         return <Navigate to="/"/>
     }
+    if(Loading){
+        return <Loading/>
+    }
   return (
     <div className='bg-login'>
         <LoginBanner>
