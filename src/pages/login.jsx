@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
-import Banner from '../components/banner'
-import LoginBanner from '../components/loginBanner'
 import { Navigate, useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify'
+import LoginBanner from '../components/loginBanner'
+
+
 
 
 const Login = ({setAuthanticatied ,authenticated}) => {

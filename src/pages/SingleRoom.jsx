@@ -68,6 +68,7 @@ export default class SingleRoom extends Component {
                 <img
                   key={index}
                   src={item}
+                  alt="img"
                   onClick={() =>
                this.handleImageClick(index)
                   }

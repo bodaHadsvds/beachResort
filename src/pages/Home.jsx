@@ -8,17 +8,14 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import defaultBcg from "../images/defaultBcg.jpeg";
-import { RoomConsumer, RoomProvider } from "../context";
+import { RoomConsumer } from "../context";
 import StyledHomeHero from "../components/StyledHomeHero";
 const Home = () => {
   const context = useContext(RoomConsumer);
-  const { rooms , loading } = context;
-  console.log(loading ,"loading");
+  const { rooms  } = context;
+  
   const [initialSlide, setInitialSlide] = useState(0)
-  // if(loading){
-  //   return <div>loading....</div>
-  // }
- 
+
   let settings = {
     dots: true,
     autoplay: true,
@@ -65,7 +62,7 @@ const Home = () => {
             const imageUrl =
               room.images && room.images[0] ? room.images[0] : defaultBcg;
             return (
-              <StyledHomeHero key={room.id} img={imageUrl}>
+              <StyledHomeHero key={room.id} img={imageUrl} >
                 <Banner
                   title={room.name}
                   subtitle="deluxe rooms starting  at $299"
