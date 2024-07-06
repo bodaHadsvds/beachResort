@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import Rooms from "./pages/Rooms";
 import SingleRoomWrapper from "./pages/SingleRoomWrapper"
 import Error from "./pages/Error";
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import SharedLayout from "./layout/Layout";
 import Login from "./pages/login";
 import { useEffect, useState } from "react";

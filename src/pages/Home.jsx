@@ -1,5 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
-import Hero from "../components/Hero";
+import React, { useContext,  useState } from "react";
 import Banner from "../components/banner";
 import { Link } from "react-router-dom";
 import Services from "../components/services";
