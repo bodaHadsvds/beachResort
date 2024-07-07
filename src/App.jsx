@@ -6,7 +6,7 @@ import Error from "./pages/Error";
 import { Routes, Route } from "react-router-dom";
 import SharedLayout from "./layout/Layout";
 import Login from "./pages/login";
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import PrivateRoute from "./Routes/privateRoute";
 
 function App() {
