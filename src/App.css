@@ -14,7 +14,7 @@
   --mainSpacing: 3px;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
-  --dark-mode-transtion: color 0.3s ease-in-out , background-color :0.3s ease-in-out
+  --dark-mode-transtion: color 0.3s ease-in-out , background-color :0.3s ease-in-out;
 }
 /* globals */
 body {
@@ -566,7 +566,7 @@ width: 80vw;
   }
 
   input[type="range"] {
-    -webkit-appearance: none; /* Remove default styling in WebKit browsers */
+    --webkit-appearance: none; /* Remove default styling in WebKit browsers */
     width: 100%; /* Full-width slider */
     height: 7px; /* Slider height */
     background: #ddd; /* Track color */
