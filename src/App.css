@@ -14,7 +14,7 @@
   --mainSpacing: 3px;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
-  --dark-mode-transtion: color 0.3s ease-in-out , background-color :0.3s ease-in-out;
+  --dark-mode-transtion: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 /* globals */
 body {
@@ -696,14 +696,14 @@ footer {
 }
 .dark-theme{
   background: #000000;
-color:#ffff
+color:#ffff;
 }
 .dark-theme .nav-links a{
   color : var(--darkGrey)
 }
 .dark-theme .Navbar , .dark-theme .services , .dark-theme .featured-rooms  ,.dark-theme .filter-container ,.dark-theme .roomslist ,.dark-theme footer {
 background: #000000;
-color:#ffff
+color:#ffff; 
 }
 .nav-right{
   list-style: none;
