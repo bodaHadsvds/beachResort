@@ -14,11 +14,13 @@
   --mainSpacing: 3px;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
   --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+  --dark-mode-transtion: color 0.3s ease-in-out , background-color :0.3s ease-in-out
 }
 /* globals */
 body {
   color: var(--mainBlack);
   background: var(--mainWhite);
+  transition: var(--dark-mode-transtion);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.4;
 }

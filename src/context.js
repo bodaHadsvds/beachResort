@@ -68,9 +68,10 @@ class RoomProvider extends Component {
   };
   toggleDarkTheme = () => {
     let { isDarkTheme } = this.state;
-    this.setState({ isDarkTheme: !isDarkTheme });
+    const DarkTheme =!isDarkTheme 
+    this.setState({ isDarkTheme: DarkTheme});
     const body = document.querySelector("body")
-    body.classList.toggle('dark-theme' ,isDarkTheme)
+    body.classList.toggle('dark-theme' ,DarkTheme)
   };
   filterRooms = () => {
     let { rooms, capacity, minSize, breakFast, type, price, maxSize, pets } =
