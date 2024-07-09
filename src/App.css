@@ -566,7 +566,8 @@ width: 80vw;
   }
 
   input[type="range"] {
-    --webkit-appearance: none; /* Remove default styling in WebKit browsers */
+    -webkit-appearance: none; /* Remove default styling in WebKit browsers */
+    appearance: none;
     width: 100%; /* Full-width slider */
     height: 7px; /* Slider height */
     background: #ddd; /* Track color */
